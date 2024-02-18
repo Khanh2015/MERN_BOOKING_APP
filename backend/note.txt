@@ -1,2 +1,7 @@
 username: phamkhanh99889988
 password: 2ImRbc802jjINJan
+
+e2e-test-db
+
+username: admin
+password: cZCYB9fNsyJJss20
