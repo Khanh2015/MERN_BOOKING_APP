@@ -82,7 +82,7 @@ const DetailsSection = () => {
         )}
       </label>
 
-      <label className="text-gray-700 text-sm font-bold flex-1">
+      <label className="text-gray-700 text-sm font-bold max-w-[50%]">
         Star Rating
         <select
           {...register("starRating", {
@@ -94,7 +94,9 @@ const DetailsSection = () => {
             Select as Rating
           </option>
           {[1, 2, 3, 4, 5].map((number) => (
-            <option value={number}>{number}</option>
+            <option key={number} value={number}>
+              {number}
+            </option>
           ))}
         </select>
         {errors.starRating && (
