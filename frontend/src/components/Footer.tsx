@@ -199,7 +199,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs text-white">© 2022 Comany Name</p>
+        <p className="mt-8 text-xs text-white">© 2024 PCGKhanh</p>
       </div>
     </footer>
   );
