@@ -8,7 +8,7 @@ const Home = () => {
   );
 
   const topRowHotels = hotels?.slice(0, 2) || [];
-  const bottomRowHotels = hotels?.slice(0, 2) || [];
+  const bottomRowHotels = hotels?.slice(0, 9) || [];
 
   return (
     <div className="space-y-3">
